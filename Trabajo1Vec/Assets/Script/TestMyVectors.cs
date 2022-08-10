@@ -20,19 +20,6 @@ public class TestMyVectors : MonoBehaviour
         MyFirstVector.Draw(Color.red);
         MySecondVector.Draw(Color.green);
 
-        //Multiplicación por escalar
-        //MyVector2D result = (MyFirstVector - MySecondVector) * scalar;
-        //result.Draw(MySecondVector, Color.yellow);
-
-        //Suma
-        //MyVector2D result = MyFirstVector + MySecondVector;
-        //result.Draw(Color.yellow);
-
-        //Resta
-        //MyVector2D result = MyFirstVector - MySecondVector;
-        //result.Draw(Color.yellow);
-        //result.Draw(MySecondVector, Color.yellow);
-
         //Multiplicación
         MyVector multi = (MySecondVector - MyFirstVector) * scalar;
         //multi.Draw(Color.yellow);
@@ -41,9 +28,6 @@ public class TestMyVectors : MonoBehaviour
         //Vector Final
         MyVector final = multi + MyFirstVector;
         final.Draw(Color.blue);
-        //final.Draw(MyFirstVector, Color.blue);
-        //final.Draw(MySecondVector, Color.blue);
-
-
+      
     }
 }
